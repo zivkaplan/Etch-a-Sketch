@@ -8,6 +8,11 @@ button {
     font-size: large;
     border-radius: 1em;
     padding: 0.5em 1em;
+    opacity: 0.8;
+  }
+
+  button:hover{
+    opacity: 1;
   }
 
   .container{
