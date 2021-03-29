@@ -1,21 +1,24 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  text-align: center;
   }
-  
+
+button {
+    display: block;
+    margin: 1em auto;
+    font-size: large;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+  }
+
   .container{
+    border: 2px solid black;
+    margin: 2em auto;
     display: grid;
-    margin: 1em;
+    max-width: 500px;
+    min-height: 500px;
+    
   }
   
-  .container > * {
-    width: 25px;
-    height: 25px;
-    border: 1px solid black;
-  }
-  
-  .hovered {
-    background: turquoise;
+.gridItem {
+    border: 0.5px solid gray;
   }

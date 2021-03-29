@@ -10,11 +10,20 @@
 </head>
 
 <body>
-
+    <h1>Etch-a-Sketch</h1>
+    <p class="coloredSquares">You painted <b>0</b> squares</p>
     <div class="container"></div>
 
-    <p class="coloredSquares"></p>
+    <div class="radioBtn">
+        <div>
+            <label for="colorPicker">Pick color:</label>
+            <input type="color" id="colorPicker">
+        </div>
+        <input name="color" type="checkbox" id="randomColor" value="Random">
+        <label for="randomColor">Random Color</label>
+    </div>
     <button class="reset">Reset</button>
+    <button class="changeGrid">Change grid size</button>
 
 
     <script src="app.js"></script>
