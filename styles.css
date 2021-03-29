@@ -26,6 +26,7 @@ button {
   
 .gridItem {
     border: 0.5px solid gray;
+    transition: background-color 0.2s ease-in;
   }
 
   #randomColor{
