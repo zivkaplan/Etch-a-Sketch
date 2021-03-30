@@ -1,11 +1,11 @@
 # Etch-a-Sketch
 
 Draw with your mouse!
-set your grid, pick a color, and hover over the squares to fill them! 
+Set your grid, pick a color, and hover over the squares to fill them! 
 
 An exercise from [The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/etch-a-sketch-project) to practice HTML, CSS and JS.
 
-view here: https://zivkaplan.github.io/Etch-a-Sketch/
+View here: https://zivkaplan.github.io/Etch-a-Sketch/
 
 screenshot: 
 
