@@ -16,12 +16,13 @@ button {
   }
 
   .container{
+    border-radius: 1.5em;
     border: 2px solid black;
     margin: 2em auto;
     display: grid;
     max-width: 500px;
     min-height: 500px;
-    
+    overflow: hidden;
   }
   
 .gridItem {
@@ -31,4 +32,11 @@ button {
 
   #randomColor{
       margin-top: 2em;
+  }
+
+  @media (max-width: 580px) {
+    .container{
+      max-width: 300px;
+      min-height: 300px;
+    }
   }
